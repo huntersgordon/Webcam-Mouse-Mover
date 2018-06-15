@@ -15,12 +15,5 @@
 #### Capture background model & Background subtraction
 Use background subtraction method called **Gaussian Mixture-based Background/Foreground Segmentation Algorithm** to subtract background. 
 
-For more information about the method, check [Zivkovic2004](http://www.zoranz.net/Publications/zivkovic2004ICPR.pdf)
-
-Here I use the OpenCV's built-in function `BackgroundSubtractorMOG2` to subtract background.
-
-```python
-bgModel = cv2.BackgroundSubtractorMOG2(0, bgSubThreshold)
-```
 
 # Control-Mouse-With-Hand-OSX
