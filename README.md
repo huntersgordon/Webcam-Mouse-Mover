@@ -1,14 +1,10 @@
-## Environment
-- OS: MacOS Sierra
-- Platform: Python 3
-- Libraries: 
-	- OpenCV 3
-	- appscript
+```python controlmouse.py```
 
-## How to run it:
-- run it in Python
-- press `'b'` to capture the background model (Remember to move your hand out of the blue rectangle)
-- press `'r'` to reset the backgroud model
+wait a few seconds for the camera to load...
+
+Press ```b``` when you're out of the frame to set the background
+
+Press ```r``` to reset the background
 
 #### Capture background model & Background subtraction
 Use background subtraction method called **Gaussian Mixture-based Background/Foreground Segmentation Algorithm** to subtract background. 
