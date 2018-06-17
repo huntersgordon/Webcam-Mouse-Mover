@@ -1,5 +1,7 @@
 ```pip install opencv-python```
 
+On line 114, in the mousemove(mousex,mousey) function change the ```mousex``` multiplier to your (screenwidth divided by 500). Change the ```mousey``` multiplier is your (screen height divided by 500).
+
 ```python controlmouse.py```
 
 wait a few seconds for the camera to load...
