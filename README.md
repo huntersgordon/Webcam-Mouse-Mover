@@ -1,3 +1,5 @@
+```pip install opencv-python```
+
 ```python controlmouse.py```
 
 wait a few seconds for the camera to load...
